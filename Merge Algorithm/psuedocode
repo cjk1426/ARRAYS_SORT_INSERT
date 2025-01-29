@@ -1,0 +1,24 @@
+FUNCTION mergeSortedArrays(array1, array2):
+    Initialize mergedArray of size array1.length + array2.length
+    Initialize pointers i, j, k to 0
+
+    WHILE i < array1.length AND j < array2.length:
+        IF array1[i] <= array2[j]:
+            mergedArray[k] = array1[i]
+            INCREMENT i
+        ELSE:
+            mergedArray[k] = array2[j]
+            INCREMENT j
+        INCREMENT k
+
+    WHILE i < array1.length:
+        mergedArray[k] = array1[i]
+        INCREMENT i
+        INCREMENT k
+
+    WHILE j < array2.length:
+        mergedArray[k] = array2[j]
+        INCREMENT j
+        INCREMENT k
+
+    RETURN mergedArray
