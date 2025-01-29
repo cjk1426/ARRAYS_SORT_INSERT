@@ -1,0 +1,15 @@
+1. Initialize a hash table with an initial size (e.g., 10 slots).
+2. Define a hash function that maps keys to array indices.
+3. Define a function to insert a key-value pair into the hash table:
+   a. Calculate the hash index for the key.
+   b. If the spot is available, insert the key-value pair.
+   c. If the spot is already taken (collision), use linear probing or chaining to find the next available spot.
+   d. Check the load factor (the ratio of stored elements to table size). If it's too high, trigger resizing.
+4. Define a function to search for a key:
+   a. Calculate the hash index for the key.
+   b. Check the index; if the key matches, return the value.
+   c. If not, follow the probing or chaining method to check the next indices or linked list.
+5. Define a function to resize the hash table:
+   a. Double the size of the hash table.
+   b. Rehash all existing keys to the new table size.
+6. Add functions for deletion or modification of key-value pairs as needed.
