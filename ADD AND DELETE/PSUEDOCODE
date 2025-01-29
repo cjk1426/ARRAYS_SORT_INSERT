@@ -1,0 +1,15 @@
+Function AddElement(array, element):
+    If array is full:
+        Create a new array with double the size
+        Copy elements from the old array to the new array
+    Add the element to the next available position in the array
+    Return the updated array
+
+Function DeleteElement(array, index):
+    If index is valid:
+        For each element from index to the end of the array:
+            Shift the element one position to the left
+        Reduce the size of the array by 1
+    Else:
+        Print "Invalid index"
+    Return the updated array

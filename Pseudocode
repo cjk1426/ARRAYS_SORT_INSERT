@@ -1,0 +1,20 @@
+1. Create an array of Stock objects
+   Each stock object contains:
+   - Brand
+   - DateEntered
+   - Status
+
+2. Implement a sorting algorithm (e.g., Bubble Sort, Merge Sort, or Arrays.sort)
+   Sort by:
+   - Brand (alphabetically)
+   - DateEntered (ascending order)
+   - Status (On-hand/Sold)
+
+3. Implement a search algorithm (e.g., Binary Search or Linear Search)
+   Search for a specific stock by:
+   - Brand name
+   - Engine number
+
+4. Print sorted array and search results
+
+5. End
